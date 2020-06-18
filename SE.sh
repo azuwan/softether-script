@@ -84,7 +84,10 @@ cd /usr/local/vpnserver/vpnserver
 ./vpnserver start
 
 #Housekeeping
-cd /root
-rm -f softether-vpnserver-*.tar.gz
+rm -f /usr/local/vpnserver/Authors.txt
+rm -f /usr/local/vpnserver/Makefile
+rm -f /usr/local/vpnserver/ReadMeFirst_Important_Notices_*.txt
+rm -f /usr/local/vpnserver/ReadMeFirst_License.txt
+rm -f /root/softether-vpnserver-*.tar.gz
 
 END
