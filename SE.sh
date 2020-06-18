@@ -79,4 +79,7 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 service dropbear restart
 service squid3 restart
 
+#start SoftEther
+./vpnserver start
+
 END
