@@ -38,7 +38,7 @@ chmod 700 vpncmd
 chmod 700 vpnserver
 
 #Create systemd init file for Softether VPN service
-wget -O /lib/systemd/system/vpnserver.service https://whattheserver.me/softether-scripts/vpnserver.service
+wget -O /lib/systemd/system/vpnserver.service https://raw.githubusercontent.com/azuwan/softether-script/master/vpnserver.service
 
 # install dropbear
 apt-get -y install dropbear
