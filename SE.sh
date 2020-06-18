@@ -83,4 +83,8 @@ service squid3 restart
 cd /usr/local/vpnserver/vpnserver
 ./vpnserver start
 
+#Housekeeping
+cd /root
+rm -f softether-vpnserver-*.tar.gz
+
 END
