@@ -80,6 +80,7 @@ service dropbear restart
 service squid3 restart
 
 #start SoftEther
+cd /usr/local/vpnserver/vpnserver
 ./vpnserver start
 
 END
