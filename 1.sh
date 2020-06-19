@@ -43,4 +43,4 @@ rm -f /usr/local/vpnserver/ReadMeFirst_Important_Notices_*.txt
 rm -f /usr/local/vpnserver/ReadMeFirst_License.txt
 rm -f /root/softether-vpnserver-*.tar.gz
 
-END
+exit 0
